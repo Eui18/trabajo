@@ -89,4 +89,18 @@ p.error{
   font-size: 14px;
   margin-left: 55px;
   margin-top: 5px;
+  display: none;
+}
+
+p.error-password {
+  color: red;
+  font-size: 14px;
+  margin-left: 55px;
+  margin-top: 5px;
+  display: none;
+}
+
+a{
+  text-decoration: none; 
+    color: inherit;
 }

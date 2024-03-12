@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,87 +9,163 @@
 </head>
 
 <body>
+    <main>
+        <nav class="navegation">
+            <div class="container-logo">
+                <img src="../Imagenes/logo.jpg" alt="" class="logo-img">
+                <span class="Title-logo">Unique <br> essence</span>
+            </div>
+            <ul class="container-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicios">Servicios</a> </li>
+                <li><a href="#Ubicacion">Ubicacion</a></li>
+                <li><a href="#cancel">Cancelaciones</a> </li>
+                <li><a href="#conocer">Conocenos</a></li>
+            </ul>
+        </nav>
 
-   <main>
-    <nav class="navegation">
-        <div class="container-logo">
-            <img src="../Imagenes/logo.jpg" alt="" class="logo-img">
-            <span class="Title-logo">Unique <br> essence</span>
+        <section class="home-description" id="home">
+            <h1 class="Title">Unique essence</h1>
+            <p>Somos un salón de belleza comprometido con tu bienestar y belleza. Nuestro equipo de profesionales está aquí
+                para atenderte con los mejores servicios.</p>
+        </section>
+    </main>
+
+
+    <section class="container-service" id="servicios">
+        <h1 class="servicios-span">Servicios que ofrecemos</h1>
+
+        <div class="card-service">
+            <img src="../Imagenes/maquillaje.jpg" alt="" class="img-service">
+            <div class="date-service">
+                <span class="Title-service">Maquillaje</span>
+                <span class="precio"> precio: $150 </span>
+                <p class="parrafo">Deja que nuestros expertos en maquillaje realcen tu belleza natural con maquillajes personalizados que resalten tus mejores rasgos y te hagan sentir radiante en cualquier ocasión..
+                </p>
+                <a href="#cancel">
+                    <button class="pedido"> Adquir pedido</button>
+                </a>
+            </div>
         </div>
-        <ul class="container-items">
-            <li>Home</li>
-            <li> Servicios </li>
-            <li>Ubicacion</li>
-            <li> Cancelaciones </li>
-            <li>Conocenos</li>
-           
-        </ul>
-    </nav>
 
-    <section class="home-description">
-        <h1 class="Title">Unique essence</h1>
-        <p>Somos un salón de belleza comprometido con tu bienestar y belleza. Nuestro equipo de profesionales está aquí 
-            para atenderte con los mejores servicios.</p>
+        <div class="card-service">
+            <img src="../Imagenes/corte.jpg" alt="" class="img-service">
+            <div class="date-service">
+                <span class="Title-service">Corte de cabello</span>
+                <span class="precio"> precio: $150 </span>
+                <p class="parrafo">Descubre nuestro equipo de estilistas expertos listos para transformar tu look con cortes de cabello modernos y personalizados que reflejen tu estilo único.
+                </p>
+                <a href="#cancel">
+                    <button class="pedido"> Adquir pedido</button>
+                </a>   
+            </div>
+        </div>
+
+        <div class="card-service">
+            <img src="../Imagenes/coloracion.jpg" alt="" class="img-service">
+            <div class="date-service">
+                <span class="Title-service">Coloración y tintes de cabello</span>
+                <span class="precio"> precio: $150 </span>
+                <p class="parrafo">Experimenta una explosión de color con nuestros servicios de coloración, desde reflejos sutiles hasta cambios audaces de tono, llevando tu cabello al siguiente nivel de estilo.
+                </p>
+                <a href="#cancel">
+                    <button class="pedido"> Adquir pedido</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="card-service">
+            <img src="../Imagenes/manicura.jpg" alt="" class="img-service">
+            <div class="date-service">
+                <span class="Title-service">Manicura y pedicura</span>
+                <span class="precio"> precio: $150 </span>
+                <p class="parrafo">Mima tus manos y pies con nuestras lujosas manicuras y pedicuras, que ofrecen un cuidado impecable de las uñas y un toque de elegancia con una amplia gama de colores y diseños de esmaltes.
+                </p>
+                <a href="#cancel">
+                    <button class="pedido"> Adquir pedido</button>
+                </a>
+            </div>
+        </div>
+        <a class="regreso" href="#home">Regresar</a>
     </section>
-   </main>
 
-<section class="container-service">
-    <h1 class="servicios-span">Servicios que ofrecemos</h1>
 
-    <div class="card-service">
-        <img src="../Imagenes/peinados.avif" alt="" class="img-service">
-        <div class="date-service">
-            <span class="Title-service">Limpieza facial</span>
-            <span class="precio"> precio: $150 </span>
-            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum
-                 facilis inventore quam quisquam harum praesentium. Architecto, nemo maiores blanditiis
-                  laborum ab laudantium quia nobis repellendus nam a similique vitae.
-            </p>
-            <button> Adquir pedido</button>
+    <section class="section-ubicacion" id="Ubicacion">
+        <div class="containerMap">
+            <h1 class="Title-ubicacion">Ubicacion</h1>
+            <br>
+            <iframe class="Mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30566.38176004575!2d-92.66547268916014!3d16.736941800000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed4577b43534cb%3A0xd00442444e007ce4!2sOsadia%20by%20T%26A%20Beauty%20Salon%20San%20Crist%C3%B3bal!5e0!3m2!1ses-419!2smx!4v1710097814462!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-    </div>
 
-    <div class="card-service">
-        <img src="../Imagenes/peinados.avif" alt="" class="img-service">
-        <div class="date-service">
-            <span class="Title-service">Limpieza facial</span>
-            <span class="precio"> precio: $150 </span>
-            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum
-                 facilis inventore quam quisquam harum praesentium. Architecto, nemo maiores blanditiis
-                  laborum ab laudantium quia nobis repellendus nam a similique vitae.
-            </p>
-            <button> Adquir pedido</button>
+        <div class="containerMap">
+            <h1 class="Title-fotos">Seccion de fotos</h1>
+            <br>
+            <img src="../Imagenes/img1.jpg" alt="" class="fotos-img">
+            <img src="../Imagenes/img2.jpg" alt="" class="fotos-img">
+            <img src="../Imagenes/img3.jpg" alt="" class="fotos-img">
+            <img src="../Imagenes/img4.jpg" alt="" class="fotos-img">
         </div>
-    </div>
+        <a class="regreso" href="#home">Regresar</a>
+    </section>
 
-    <div class="card-service">
-        <img src="../Imagenes/peinados.avif" alt="" class="img-service">
-        <div class="date-service">
-            <span class="Title-service">Limpieza facial</span>
-            <span class="precio"> precio: $150 </span>
-            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum
-                 facilis inventore quam quisquam harum praesentium. Architecto, nemo maiores blanditiis
-                  laborum ab laudantium quia nobis repellendus nam a similique vitae.
-            </p>
-            <button> Adquir pedido</button>
+    <section class="section-pedido">
+        <div class="container-pc" id="cancel">
+            <h2 class="titulo">Pedido</h2>
+            <form class="date-form" id="pedido-form" action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono"><br>
+                <label for="servicio">Servicio:</label><br>
+                <select class="p" id="servicio" name="servicio" required>
+                    <option value="">Seleccione un servicio</option>
+                    <option value="Maquillaje">Maquillaje</option>
+                    <option value="Corte de Cabello">Corte de Cabello</option>
+                    <option value="Coloración y tintes de cabello">Coloración y tintes de cabello</option>
+                    <option value="Manicura y pedicura">Manicura y pedicura</option>
+                </select><br>
+                <label for="fecha">Fecha del servicio:</label><br>
+                <input type="date" id="fecha" name="fecha"><br>
+                <button class="btn" type="submit">Enviar Pedido</button>
+            </form>
         </div>
-    </div>
 
-    <div class="card-service">
-        <img src="../Imagenes/peinados.avif" alt="" class="img-service">
-        <div class="date-service">
-            <span class="Title-service">Limpieza facial</span>
-            <span class="precio"> precio: $150 </span>
-            <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum
-                 facilis inventore quam quisquam harum praesentium. Architecto, nemo maiores blanditiis
-                  laborum ab laudantium quia nobis repellendus nam a similique vitae.
-            </p>
-            <button> Adquir pedido</button>
+        <div class="container-pc" id="cancel">
+            <h2 class="titulo">Cancelaciones</h2>
+            <form class="date-form" id="cancelacion-form" action="#" method="post">
+                <label for="nombre-cancelacion">Nombre:</label><br>
+                <input type="text" id="nombre-cancelacion" name="nombre-cancelacion"><br>
+                <label for="telefono-cancelacion">Teléfono:</label><br>
+                <input type="tel" id="telefono-cancelacion" name="telefono-cancelacion"><br>
+                <label for="motivo">Motivo de cancelación:</label><br>
+                <textarea class="motivo" id="motivo" name="motivo" rows="4"></textarea><br>
+                <button class="btn" type="submit">Enviar Cancelación</button>
+            </form>
+            <a class="regreso" href="#home">Regresar</a>
         </div>
-    </div>
+    </section>
 
-</section>
+    <section class="conocenos" id="conocer">
+        <h1 class="t">Conocenos</h1>
+        <div>
+            <p>Somos un salón de belleza comprometido con tu bienestar y belleza. Nuestro equipo de profesionales está aquí para atenderte con los mejores servicios, ofreciendo una experiencia excepcional que resalta tu belleza natural y te hace sentir radiante tanto por dentro como por fuera. ¡Esperamos conocerte pronto!.</p>
+        </div>
+        <div class="logo-container">
+            <a href="https://facebook.com">
+                <img src="../Imagenes/facebook_logo_icon_147291.png" alt="logo 1" class="logo">
+            </a>
+            <a href="https://web.whatsapp.com/">
+                <img src="../Imagenes/whatsapp_logo_icon_189219.png" alt="logo 2" class="logo">
+            </a>
+        </div>
+        <a class="regreso" href="#home">Regresar</a>
+    </section>
 
+    <script src="../Js/Home.js"></script>
 </body>
 
 </html>

@@ -7,6 +7,214 @@
 
 body {
     font-family: "Playfair Display", serif;
+}
+
+main {
+    background-image: url(../Imagenes/fondHome.jpg);
+    background-size: cover;
+    color: white;
+}
+
+nav.navegation {
+    background: rgba(158, 93, 141, 0.407);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; /* evita el desbordamiento  */
+}
+
+a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+div.container-logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+span.Title-logo {
+    width: 60%;
+    height: 50%;
+    font-size: 20px;
+}
+
+img.logo-img {
+    width: 25%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+ul.container-items {
+    width: 40%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+}
+
+li {
+    margin: 0 15px;
+}
+
+
+section.home-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background: rgba(158, 93, 141, 0.407);
+}
+
+h1.Title {
+    font-size: 35px;
+    margin-top: 165px;
+    line-height: 55.5px;
+}
+
+p {
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    line-height: 25.5px;
+    /* interlineado */
+}
+
+section.container-service {
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.card-service {
+    display: flex;
+    width: 45%;
+    height: 55%;
+    margin: 25px;
+    background-color: white;
+}
+
+img.img-service {
+    width: 40%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+div.date-service {
+    width: 54%;
+    padding: 0 3%;
+
+}
+
+span.Title-service {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+span.precio {
+    display: block;
+    font-size: 18px;
+   margin-top: 10px;
+    font-weight: bold;
+}
+
+p.parrafo {
+    width: 100%;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 14px; /* tamaño de la fuente */
+}
+
+button {
+    background-color: rgb(211, 85, 106);
+    color: white;
+    border: none;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h1.servicios-span{
+    width: 100%;
+   margin-top: 40px;
+   margin-left: 40px;  
+}
+
+
+section.section-ubicacion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+h1.Title-ubicacion{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+div.containerMap{
+    width: 50%;
+    height: 80%;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+
+iframe.Mapa{
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    border: solid black;
+}
+
+div.fotos-belleza{
+    border: solid purple;
+    width: 50% ;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img.fotos-img{
+    width: 40%;
+    height: 47%;
+    object-fit: cover;
+    margin-left: 5%;
+    padding: 6px 8px;
+}
+
+.Title-fotos{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playfair Display", serif;
 
 }
 
@@ -23,8 +231,14 @@ nav.navegation {
     height: 15vh;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    overflow: hidden; /* evita el desbordamiento  */
 
+
+}
+
+a{
+    text-decoration: none; 
+    color: inherit;
 }
 
 div.container-logo {
@@ -110,7 +324,7 @@ div.card-service {
 
 img.img-service {
     width: 40%;
-    height: 100%;
+    height: 50vh;
     object-fit: cover;
 }
 
@@ -131,14 +345,16 @@ span.Title-service {
 span.precio {
     display: block;
     font-size: 18px;
-    margin: 1% 0;
+   margin-top: 10px;
     font-weight: bold;
 }
 
 p.parrafo {
-    margin: 1% 0;
-    width: 100%;
+
+      width: 100%;
     text-align: justify;
+    margin-top: 10px;
+    font-size: 14px; /* tamaño de la fuente */
 }
 
 button {
@@ -156,6 +372,153 @@ button {
 h1.servicios-span{
     width: 100%;
    margin-top: 40px;
-   margin-left: 40px;
-  
+   margin-left: 40px;  
+}
+
+
+.section-ubicacion{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+
+h1.Title-ubicacion{
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+div.containerMap{
+    width: 50%;
+    height: 80%;
+    margin: 25px;
+    box-sizing: border-box;
+
+}
+
+
+iframe.Mapa{
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    border: solid black;
+}
+
+img.fotos-img{
+    
+    width: 40%;
+    height: 47%;
+    object-fit: cover;
+    margin-left: 5%;
+    padding: 6px 8px;
+}
+
+.Title-fotos{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section.section-pedido{
+    width: 100%;
+    height: 109vh;
+    display: flex;
+    background: rgb(216, 136, 150);
+}
+    
+
+div.container-pc{
+    width: 80%;
+    height: 80%;
+    margin: 25px;
+    box-sizing: border-box;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.date-form input{
+    position: relative;
+    background: transparent;
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid purple;
+}
+
+
+h2.titulo{
+   font-size: 2em;
+   color: black;
+   text-align: center;
+
+}
+
+.motivo{
+    width: 85%;
+    height: 10%;
+}
+
+.btn{
+    background-color: rgb(211, 85, 106);
+    color: white;
+    border: none;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+section.conocenos{
+    background-image: url("../Imagenes/img5.avif");
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(12, 12, 12, 0.89);
+    text-align: center;
+}
+
+h1.t{
+    margin-top: 20px;
+
+}
+
+.p{
+    font-size: 18px;
+    width: 70%;
+    line-height: 25.5px;
+    color: rgb(0, 0, 0);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo-container img {
+    width:50px;
+    height: auto; 
+    margin: 10px; 
+    border-radius: 50%; 
+    display: flex;
+}
+
+a.regreso{
+    border: solid green;
+    height: 4%;
 }
